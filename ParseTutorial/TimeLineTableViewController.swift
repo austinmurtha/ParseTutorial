@@ -144,7 +144,7 @@ class TimeLineTableViewController: UITableViewController, UITableViewDelegate, P
             logInViewController.delegate = self
             
             var signUpViewController = PFSignUpViewController()
-            
+            signUpViewController.fields = (PFSignUpFields.UsernameAndPassword | PFSignUpFields.SignUpButton | PFSignUpFields.Email | PFSignUpFields.Email | PFSignUpFields.DismissButton)
             signUpViewController.delegate = self
             
             logInViewController.signUpController = signUpViewController
