@@ -1,0 +1,383 @@
+Apr 24 10:51:31 6-Plus iaptransportd[69] <Warning>: CIapPortAppleIDBus: Auth timer timeout completed on pAIDBPort:0x13c6101b0, portID:01 downstream port
+Apr 24 10:51:32 6-Plus kernel[0] <Notice>: xpcproxy[1067] Container: /private/var/mobile/Containers/Data/Application/EA14BFE0-F21B-483F-A773-53137DB8FC26 (sandbox)
+Apr 24 10:51:32 6-Plus Web[1067] <Error>: assertion failed: 12F70: libxpc.dylib + 71768 [B870B51D-AA85-3686-A7D9-ACD48C5FE153]: 0x7d
+Apr 24 10:51:32 6-Plus Unknown[1067] <Error>: 
+Apr 24 10:51:32 6-Plus locationd[61] <Notice>: Gesture EnabledForTopCLient: 0, EnabledInDaemonSettings: 0
+Apr 24 10:51:32 6-Plus UserEventAgent[20] <Warning>: Tracking com.apple.webapp (via activity)
+Apr 24 10:51:32 6-Plus kernel[0] <Notice>: 023220.645238 wlan0.A[6109] AppleBCMWLANBGScanManager::configurePrivateMACForBGScans(): BG-SCAN PRIVATE MAC 4a 23 43 ac 44 d8
+Apr 24 10:51:33 6-Plus CLTM[20] <Error>: CLTM: _subscription 0x0, _subscribedChannels 0x0
+Apr 24 10:51:33 6-Plus kernel[0] <Notice>: 023220.877742 wlan0.N[6110] AppleBCMWLANCore::setASSOCIATE():  [wifid]: lowerAuth = AUTHTYPE_OPEN, upperAuth = AUTHTYPE_WPA2_PSK, key = CIPHER_PMK , don't disassociate    .
+Apr 24 10:51:33 6-Plus kernel[0] <Notice>: 023220.887639 wlan0.N[6111] AppleBCMWLANCore::resetAutoCountry(): EnhancedLocaleEnabled: 1, HostCountry:1, fDefaultCountryCode:XZ, fCurrentHostCountryCode:US
+Apr 24 10:51:33 6-Plus kernel[0] <Notice>: 023220.950591 wlan0.A[6112] AppleBCMWLANNetManager::prepareToBringUpLink():  Delaying powersave entry in order to get an IP address
+Apr 24 10:51:33 6-Plus kernel[0] <Notice>: 023220.950685 wlan0.A[6113] AppleBCMWLANNetManager::updateLinkQualityMetrics(): Report LQM to User Land 50, fAverageRSSI -85
+Apr 24 10:51:33 6-Plus kernel[0] <Notice>: AirPort: Link Up on en0
+Apr 24 10:51:33 6-Plus kernel[0] <Notice>: en0::startOutputQueues (0)
+Apr 24 10:51:33 6-Plus kernel[0] <Notice>: en0: BSSID changed to 6c:f3:7f:97:0a:88
+Apr 24 10:51:33 6-Plus kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Apr 24 10:51:33 6-Plus kernel[0] <Notice>: en0: BSSID changed to 6c:f3:7f:97:0a:88
+Apr 24 10:51:33 6-Plus kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Apr 24 10:51:33 6-Plus kernel[0] <Notice>: 023220.950981 wlan0.A[6114] AppleBCMWLANBGScanManager::configurePrivateMACForBGScans(): BG-SCAN PRIVATE MAC 0 0 0 0 0 0
+Apr 24 10:51:33 6-Plus kernel[0] <Notice>: 023220.974096 wlan0.A[6115] AppleBCMWLANConfigManager::configureRoamingProfile(): Roam profile is already in effect (profile=3)
+Apr 24 10:51:33 6-Plus wifid[37] <Error>: WiFi:[451579893.140709]: __WiFiLQAMgrSetCurrentNetwork: SSID: AlphaBeta BSSID: 6c:f3:7f:97:a:88 RSSI: -47 ApEnv: 4
+Apr 24 10:51:33 6-Plus kernel[0] <Notice>: 023220.991989 wlan0.N[6116] AppleBCMWLANCore::startRoamScan(): 4904 Delaying RoamScan; because  Join Mgr Busy 1 isWaitingforIP 1 
+Apr 24 10:51:33 6-Plus nesessionmanager[1069] <Notice>: NESMVPNSession[BLK-Per-AppVPN:268987B3-E11C-41BF-A4DC-C711BFB3931B]: Received a start command from networkd[88]
+Apr 24 10:51:33 6-Plus nesessionmanager[1069] <Notice>: NESMVPNSession[BLK-Per-AppVPN:268987B3-E11C-41BF-A4DC-C711BFB3931B] starting on demand from process Web (1067) matching hostname webster.bfm.com
+Apr 24 10:51:33 6-Plus nesessionmanager[1069] <Notice>: NESMVPNSession[BLK-Per-AppVPN:268987B3-E11C-41BF-A4DC-C711BFB3931B]: status changed to connecting
+Apr 24 10:51:33 6-Plus nesessionmanager[1069] <Notice>: NESMVPNSession[BLK-Per-AppVPN:268987B3-E11C-41BF-A4DC-C711BFB3931B] started VPN
+Apr 24 10:51:33 6-Plus locationd[61] <Notice>: Gesture EnabledForTopCLient: 0, EnabledInDaemonSettings: 0
+Apr 24 10:51:33 6-Plus kernel[0] <Notice>: 023221.082649 wlan0.A[6117] AppleBCMWLANCore::setProperties(): Active during sleep supported (true)
+Apr 24 10:51:33 6-Plus locationd[61] <Warning>: WiFi is associated YES
+Apr 24 10:51:33 6-Plus locationd[61] <Warning>: WiFi is associated YES
+Apr 24 10:51:33 6-Plus identityservicesd[47] <Warning>: WiFi is associated YES
+Apr 24 10:51:33 6-Plus identityservicesd[47] <Warning>: WiFi is associated YES
+Apr 24 10:51:33 6-Plus imagent[63] <Warning>: WiFi is associated YES
+Apr 24 10:51:33 6-Plus imagent[63] <Warning>: WiFi is associated YES
+Apr 24 10:51:33 6-Plus UserEventAgent[20] <Warning>: WiFi is associated YES
+Apr 24 10:51:33 6-Plus UserEventAgent[20] <Warning>: WiFi is associated YES
+Apr 24 10:51:33 6-Plus InCallService[653] <Warning>: WiFi is associated YES
+Apr 24 10:51:33 6-Plus SpringBoard[54] <Warning>: WiFi is associated YES
+Apr 24 10:51:33 6-Plus InCallService[653] <Warning>: WiFi is associated YES
+Apr 24 10:51:33 6-Plus SpringBoard[54] <Warning>: WiFi is associated YES
+Apr 24 10:51:33 6-Plus apsd[94] <Warning>: WiFi is associated YES
+Apr 24 10:51:33 6-Plus apsd[94] <Warning>: WiFi is associated YES
+Apr 24 10:51:33 6-Plus MobileSMS[256] <Warning>: WiFi is associated YES
+Apr 24 10:51:33 6-Plus MobileSMS[256] <Warning>: WiFi is associated YES
+Apr 24 10:51:33 6-Plus MobileMail[154] <Warning>: WiFi is associated YES
+Apr 24 10:51:33 6-Plus MobileMail[154] <Warning>: WiFi is associated YES
+Apr 24 10:51:33 6-Plus configd[32] <Notice>: network changed.
+Apr 24 10:51:33 6-Plus neagent[1070] <Error>: looking for '/private/var/mobile/Containers/Data/Application/6954CE5F-35BC-4675-9523-5EC9D5718104/Documents/pluginlogs//debug'
+Apr 24 10:51:33 6-Plus neagent[1070] <Error>: stat failed : No such file or directory
+Apr 24 10:51:33 6-Plus neagent[1070] <Error>: init with no debug
+Apr 24 10:51:33 6-Plus neagent[1070] <Error>: VPNTunnelInit
+Apr 24 10:51:33 6-Plus neagent[1070] <Notice>: (0): Creating a new flow director
+Apr 24 10:51:33 6-Plus neagent[1070] <Error>: Plugin_VPNTunnelConnect
+Apr 24 10:51:33 6-Plus neagent[1070] <Error>: found value '<TCP_ANY>' for SentryService set in the MI vendor config
+Apr 24 10:51:33 6-Plus neagent[1070] <Error>: found value '443'for SentryPort set in the MI vendor config
+Apr 24 10:51:33 6-Plus neagent[1070] <Error>: could not find disconnectTimeoutInSeconds in the MI vendor config; using default
+Apr 24 10:51:33 6-Plus neagent[1070] <Error>: found value 'FEtY5se7Pr79b/dGqFjsJlNt4aw=' for CertificateHashSHA1 set in the MI vendor config
+Apr 24 10:51:33 6-Plus neagent[1070] <Error>: could not find IgnoreCertificateHash in the MI vendor config; will not ignore hash if present
+Apr 24 10:51:33 6-Plus dataaccessd[130] <Warning>: WiFi is associated YES
+Apr 24 10:51:33 6-Plus dataaccessd[130] <Warning>: WiFi is associated YES
+Apr 24 10:51:33 6-Plus neagent[1070] <Error>: FLOW0000 (NEW): vpn dnsflow open completed handler set : success
+Apr 24 10:51:33 6-Plus neagent[1070] <Notice>: (1): Opening the DNS flow
+Apr 24 10:51:33 6-Plus neagent[1070] <Error>: flow inactivity timer getting set
+Apr 24 10:51:33 6-Plus neagent[1070] <Error>: disconnect timer set for 451579953.399831; current time is 451579893.399831
+Apr 24 10:51:33 6-Plus neagent[1070] <Error>: FLOW0000 (NEW): vpn dnsflow bytes available handler set : success
+Apr 24 10:51:33 6-Plus nesessionmanager[1069] <Notice>: NESMVPNSession[BLK-Per-AppVPN:268987B3-E11C-41BF-A4DC-C711BFB3931B]: status changed to connected
+Apr 24 10:51:33 6-Plus kernel[0] <Notice>: flow_divert_connect_out (1670454682): com.apple.webapp-0A015BA0385B43D1950F70C37F4F223B did not match
+Apr 24 10:51:33 6-Plus Web[1067] <Error>: tcp_connection_destination_prepare_complete 1 connectx to 0.0.0.0:0@0 failed: Operation not permitted
+Apr 24 10:51:33 6-Plus networkd[88] <Warning>: +[NETLedBelly stopFastFail] Clearing ledbelly failure cache
+Apr 24 10:51:33 6-Plus configd[32] <Notice>: network changed: v4(pdp_ip0:10.75.95.171) DNS* Proxy
+Apr 24 10:51:33 6-Plus locationd[61] <Notice>: Gesture EnabledForTopCLient: 0, EnabledInDaemonSettings: 0
+Apr 24 10:51:35 6-Plus locationd[61] <Notice>: Gesture EnabledForTopCLient: 0, EnabledInDaemonSettings: 0
+Apr 24 10:51:35 6-Plus kernel[0] <Notice>: flow_divert_connect_out (2830586245): com.apple.webapp-0A015BA0385B43D1950F70C37F4F223B did not match
+Apr 24 10:51:35 6-Plus Web[1067] <Error>: tcp_connection_destination_prepare_complete 2 connectx to 0.0.0.0:0@0 failed: Operation not permitted
+Apr 24 10:51:36 6-Plus locationd[61] <Notice>: Gesture EnabledForTopCLient: 0, EnabledInDaemonSettings: 0
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: 023224.910550 wlan0.N[6118] AppleBCMWLANJoinManager::handleSupplicantEvent(): status = 8 Waiting to receive handshake msg M3, reason = 14 Mreceived FC_DEAUTH, flags = 0x0, authtype = 0, addr = 00:00:92:00:00:00
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: 023224.910575 wlan0.N[6119] AppleBCMWLANNetManager::handleDeauth():    status = 0 , reason = 3, flags = 0x0, authtype = 0, addr = 6c:f3:7f:97:0a:88
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: 023224.912665 wlan0.N[6120] AppleBCMWLANNetManager::leaveNetworkAsync():  kDeauthdCurrNetwork already set. Skipping call to leaveNetworkASync
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: AirPort: Link Down on en0. Reason 1 (Unspecified).
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: en0::stopOutputQueues
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: 023224.912962 wlan0.A[6121] AppleBCMWLANBGScanManager::configurePrivateMACForBGScans(): BG-SCAN PRIVATE MAC 1a 82 8 4c f3 f9
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: 023224.912977 wlan0.N[6122] AppleBCMWLANCore::resetAutoCountry(): EnhancedLocaleEnabled: 1, HostCountry:1, fDefaultCountryCode:XZ, fCurrentHostCountryCode:US
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: 023224.934495 wlan0.A[6123] AppleBCMWLANBGScanManager::configurePrivateMACForBGScans(): BG-SCAN PRIVATE MAC ee 4a 66 e4 91 65
+Apr 24 10:51:37 6-Plus wifid[37] <Error>: WiFi:[451579897.104639]: Failed to associate with AlphaBeta, reason -3902
+Apr 24 10:51:37 6-Plus identityservicesd[47] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: 023224.970243 wlan0.A[6124] AppleBCMWLANCore::setProperties(): Active during sleep supported (false)
+Apr 24 10:51:37 6-Plus SpringBoard[54] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus imagent[63] <Warning>: WiFi is associated NO
+Apr 24 10:51:37 6-Plus UserEventAgent[20] <Warning>: WiFi is associated NO
+Apr 24 10:51:37 6-Plus imagent[63] <Warning>: WiFi is associated NO
+Apr 24 10:51:37 6-Plus UserEventAgent[20] <Warning>: WiFi is associated NO
+Apr 24 10:51:37 6-Plus MobileSMS[256] <Warning>: WiFi is associated NO
+Apr 24 10:51:37 6-Plus apsd[94] <Warning>: WiFi is associated NO
+Apr 24 10:51:37 6-Plus locationd[61] <Warning>: WiFi is associated NO
+Apr 24 10:51:37 6-Plus SpringBoard[54] <Warning>: WiFi is associated NO
+Apr 24 10:51:37 6-Plus apsd[94] <Warning>: WiFi is associated NO
+Apr 24 10:51:37 6-Plus locationd[61] <Warning>: WiFi is associated NO
+Apr 24 10:51:37 6-Plus MobileSMS[256] <Warning>: WiFi is associated NO
+Apr 24 10:51:37 6-Plus InCallService[653] <Warning>: WiFi is associated NO
+Apr 24 10:51:37 6-Plus InCallService[653] <Warning>: WiFi is associated NO
+Apr 24 10:51:37 6-Plus identityservicesd[47] <Warning>: WiFi is associated NO
+Apr 24 10:51:37 6-Plus MobileMail[154] <Warning>: WiFi is associated NO
+Apr 24 10:51:37 6-Plus MobileMail[154] <Warning>: WiFi is associated NO
+Apr 24 10:51:37 6-Plus dataaccessd[130] <Warning>: WiFi is associated NO
+Apr 24 10:51:37 6-Plus dataaccessd[130] <Warning>: WiFi is associated NO
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: 023225.212355 wlan0.N[6125] AppleBCMWLANCore::setASSOCIATE():  [wifid]: lowerAuth = AUTHTYPE_OPEN, upperAuth = AUTHTYPE_WPA2_PSK, key = CIPHER_PMK , don't disassociate    .
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: 023225.218820 wlan0.N[6126] AppleBCMWLANCore::resetAutoCountry(): EnhancedLocaleEnabled: 1, HostCountry:1, fDefaultCountryCode:XZ, fCurrentHostCountryCode:US
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: 023225.271197 wlan0.A[6127] AppleBCMWLANNetManager::prepareToBringUpLink():  Delaying powersave entry in order to get an IP address
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: 023225.271292 wlan0.A[6128] AppleBCMWLANNetManager::updateLinkQualityMetrics(): Report LQM to User Land 50, fAverageRSSI -85
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: AirPort: Link Up on en0
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: en0::startOutputQueues (0)
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: en0: BSSID changed to 9c:1c:12:0f:17:90
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: en0: BSSID changed to 9c:1c:12:0f:17:90
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: 023225.271600 wlan0.A[6129] AppleBCMWLANBGScanManager::configurePrivateMACForBGScans(): BG-SCAN PRIVATE MAC 0 0 0 0 0 0
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: 023225.279216 wlan0.N[6130] AppleBCMWLANCore::startRoamScan(): 4904 Delaying RoamScan; because  Join Mgr Busy 1 isWaitingforIP 1 
+Apr 24 10:51:37 6-Plus kernel[0] <Notice>: 023225.290353 wlan0.A[6131] AppleBCMWLANConfigManager::configureRoamingProfile(): Roam profile is already in effect (profile=3)
+Apr 24 10:51:37 6-Plus wifid[37] <Error>: WiFi:[451579897.456923]: __WiFiLQAMgrSetCurrentNetwork: SSID: AlphaBeta BSSID: 9c:1c:12:f:17:90 RSSI: -67 ApEnv: 4
+Apr 24 10:51:37 6-Plus UserEventAgent[20] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus UserEventAgent[20] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus imagent[63] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus imagent[63] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus InCallService[653] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus InCallService[653] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus SpringBoard[54] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus SpringBoard[54] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus MobileMail[154] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus MobileMail[154] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus locationd[61] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus identityservicesd[47] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus identityservicesd[47] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus apsd[94] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus apsd[94] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus MobileSMS[256] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus MobileSMS[256] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus locationd[61] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus dataaccessd[130] <Warning>: WiFi is associated YES
+Apr 24 10:51:37 6-Plus dataaccessd[130] <Warning>: WiFi is associated YES
+Apr 24 10:51:38 6-Plus CLTM[20] <Error>: CLTM: _subscription 0x0, _subscribedChannels 0x0
+Apr 24 10:51:39 6-Plus mstreamd[1028] <Notice>: (Note ) PS: MSPublisher - 216963425 Sending metadata...
+Apr 24 10:51:39 6-Plus mstreamd[1028] <Error>: tcp_connection_handle_connect_conditions_bad 3 failed: Connection not permitted over pdp_ip0
+Apr 24 10:51:40 6-Plus mstreamd[1028] <Notice>: (Error) PS: Connection failed. Error: The Internet connection appears to be offline.
+Apr 24 10:51:40 6-Plus mstreamd[1028] <Notice>: (Error) PS: MSPublishStreamsProtocol - 216963425 Put connection has failed. Error: __NSCFError:
+	Domain  : kCFErrorDomainCFNetwork
+	Code    : -1009
+	Desc    : The Internet connection appears to be offline.
+	UserInfo: {
+	    NSErrorFailingURLKey = "https://p01-streams.icloud.com:443/216963425/streams/putmetadata";
+	    NSErrorFailingURLStringKey = "https://p01-streams.icloud.com:443/216963425/streams/putmetadata";
+	    NSLocalizedDescription = "The Internet connection appears to be offline.";
+	    "_kCFStreamErrorCodeKey" = 50;
+	    "_kCFStreamErrorDomainKey" = 1;
+	}
+Apr 24 10:51:40 6-Plus mstreamd[1028] <Notice>: (Error) PS: MSPublisher - 216963425 Encountered network issues during upload. Will try again later...
+Apr 24 10:51:40 6-Plus syncdefaultsd[1040] <Notice>: (Warn ) received memory warning
+Apr 24 10:51:41 6-Plus kernel[0] <Notice>: 023229.229768 wlan0.N[6132] AppleBCMWLANJoinManager::handleSupplicantEvent(): status = 8 Waiting to receive handshake msg M3, reason = 14 Mreceived FC_DEAUTH, flags = 0x0, authtype = 0, addr = 16:30:14:01:00:00
+Apr 24 10:51:41 6-Plus kernel[0] <Notice>: 023229.229825 wlan0.N[6133] AppleBCMWLANNetManager::handleDeauth():    status = 0 , reason = 3, flags = 0x0, authtype = 0, addr = 9c:1c:12:0f:17:90
+Apr 24 10:51:41 6-Plus kernel[0] <Notice>: 023229.232114 wlan0.N[6134] AppleBCMWLANNetManager::leaveNetworkAsync():  kDeauthdCurrNetwork already set. Skipping call to leaveNetworkASync
+Apr 24 10:51:41 6-Plus kernel[0] <Notice>: AirPort: Link Down on en0. Reason 1 (Unspecified).
+Apr 24 10:51:41 6-Plus kernel[0] <Notice>: en0::stopOutputQueues
+Apr 24 10:51:41 6-Plus kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Apr 24 10:51:41 6-Plus kernel[0] <Notice>: 023229.232875 wlan0.A[6135] AppleBCMWLANBGScanManager::configurePrivateMACForBGScans(): BG-SCAN PRIVATE MAC c2 5b 62 54 c8 bf
+Apr 24 10:51:41 6-Plus kernel[0] <Notice>: 023229.232918 wlan0.N[6136] AppleBCMWLANCore::resetAutoCountry(): EnhancedLocaleEnabled: 1, HostCountry:1, fDefaultCountryCode:XZ, fCurrentHostCountryCode:US
+Apr 24 10:51:41 6-Plus wifid[37] <Error>: WiFi:[451579901.401498]: Failed to associate with AlphaBeta, reason -3902
+Apr 24 10:51:41 6-Plus UserEventAgent[20] <Warning>: WiFi is associated NO
+Apr 24 10:51:41 6-Plus locationd[61] <Warning>: WiFi is associated NO
+Apr 24 10:51:41 6-Plus locationd[61] <Warning>: WiFi is associated NO
+Apr 24 10:51:41 6-Plus SpringBoard[54] <Warning>: WiFi is associated NO
+Apr 24 10:51:41 6-Plus SpringBoard[54] <Warning>: WiFi is associated NO
+Apr 24 10:51:41 6-Plus MobileSMS[256] <Warning>: WiFi is associated NO
+Apr 24 10:51:41 6-Plus MobileSMS[256] <Warning>: WiFi is associated NO
+Apr 24 10:51:41 6-Plus UserEventAgent[20] <Warning>: WiFi is associated NO
+Apr 24 10:51:41 6-Plus imagent[63] <Warning>: WiFi is associated NO
+Apr 24 10:51:41 6-Plus imagent[63] <Warning>: WiFi is associated NO
+Apr 24 10:51:41 6-Plus identityservicesd[47] <Warning>: WiFi is associated NO
+Apr 24 10:51:41 6-Plus identityservicesd[47] <Warning>: WiFi is associated NO
+Apr 24 10:51:41 6-Plus apsd[94] <Warning>: WiFi is associated NO
+Apr 24 10:51:41 6-Plus apsd[94] <Warning>: WiFi is associated NO
+Apr 24 10:51:41 6-Plus InCallService[653] <Warning>: WiFi is associated NO
+Apr 24 10:51:41 6-Plus InCallService[653] <Warning>: WiFi is associated NO
+Apr 24 10:51:41 6-Plus MobileMail[154] <Warning>: WiFi is associated NO
+Apr 24 10:51:41 6-Plus MobileMail[154] <Warning>: WiFi is associated NO
+Apr 24 10:51:41 6-Plus dataaccessd[130] <Warning>: WiFi is associated NO
+Apr 24 10:51:41 6-Plus dataaccessd[130] <Warning>: WiFi is associated NO
+Apr 24 10:51:43 6-Plus CLTM[20] <Error>: CLTM: _subscription 0x0, _subscribedChannels 0x0
+Apr 24 10:51:43 6-Plus locationd[61] <Notice>: Gesture EnabledForTopCLient: 0, EnabledInDaemonSettings: 0
+Apr 24 10:51:43 6-Plus discoveryd[56] <Notice>: Basic Bonjour stop listening on en0
+Apr 24 10:51:43 6-Plus locationd[61] <Notice>: Gesture EnabledForTopCLient: 0, EnabledInDaemonSettings: 0
+Apr 24 10:51:44 6-Plus kernel[0] <Notice>: 023231.855332 wlan0.N[6137] AppleBCMWLANCore::setASSOCIATE():  [wifid]: lowerAuth = AUTHTYPE_OPEN, upperAuth = AUTHTYPE_WPA2_PSK, key = CIPHER_PMK , don't disassociate    .
+Apr 24 10:51:44 6-Plus kernel[0] <Notice>: 023231.862546 wlan0.N[6138] AppleBCMWLANCore::resetAutoCountry(): EnhancedLocaleEnabled: 1, HostCountry:1, fDefaultCountryCode:XZ, fCurrentHostCountryCode:US
+Apr 24 10:51:44 6-Plus kernel[0] <Notice>: 023231.923117 wlan0.A[6139] AppleBCMWLANNetManager::prepareToBringUpLink():  Delaying powersave entry in order to get an IP address
+Apr 24 10:51:44 6-Plus kernel[0] <Notice>: 023231.923282 wlan0.A[6140] AppleBCMWLANNetManager::updateLinkQualityMetrics(): Report LQM to User Land 50, fAverageRSSI -85
+Apr 24 10:51:44 6-Plus kernel[0] <Notice>: AirPort: Link Up on en0
+Apr 24 10:51:44 6-Plus kernel[0] <Notice>: en0::startOutputQueues (0)
+Apr 24 10:51:44 6-Plus kernel[0] <Notice>: en0: BSSID changed to 6c:f3:7f:97:0a:88
+Apr 24 10:51:44 6-Plus kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Apr 24 10:51:44 6-Plus kernel[0] <Notice>: en0: BSSID changed to 6c:f3:7f:97:0a:88
+Apr 24 10:51:44 6-Plus kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Apr 24 10:51:44 6-Plus kernel[0] <Notice>: 023231.923664 wlan0.A[6141] AppleBCMWLANBGScanManager::configurePrivateMACForBGScans(): BG-SCAN PRIVATE MAC 0 0 0 0 0 0
+Apr 24 10:51:44 6-Plus kernel[0] <Notice>: 023231.939819 wlan0.A[6142] AppleBCMWLANConfigManager::configureRoamingProfile(): Roam profile is already in effect (profile=3)
+Apr 24 10:51:44 6-Plus wifid[37] <Error>: WiFi:[451579904.106376]: __WiFiLQAMgrSetCurrentNetwork: SSID: AlphaBeta BSSID: 6c:f3:7f:97:a:88 RSSI: -53 ApEnv: 4
+Apr 24 10:51:44 6-Plus kernel[0] <Notice>: 023231.949069 wlan0.N[6143] AppleBCMWLANCore::startRoamScan(): 4904 Delaying RoamScan; because  Join Mgr Busy 1 isWaitingforIP 1 
+Apr 24 10:51:44 6-Plus UserEventAgent[20] <Warning>: WiFi is associated YES
+Apr 24 10:51:44 6-Plus identityservicesd[47] <Warning>: WiFi is associated YES
+Apr 24 10:51:44 6-Plus UserEventAgent[20] <Warning>: WiFi is associated YES
+Apr 24 10:51:44 6-Plus identityservicesd[47] <Warning>: WiFi is associated YES
+Apr 24 10:51:44 6-Plus apsd[94] <Warning>: WiFi is associated YES
+Apr 24 10:51:44 6-Plus imagent[63] <Warning>: WiFi is associated YES
+Apr 24 10:51:44 6-Plus apsd[94] <Warning>: WiFi is associated YES
+Apr 24 10:51:44 6-Plus imagent[63] <Warning>: WiFi is associated YES
+Apr 24 10:51:44 6-Plus SpringBoard[54] <Warning>: WiFi is associated YES
+Apr 24 10:51:44 6-Plus SpringBoard[54] <Warning>: WiFi is associated YES
+Apr 24 10:51:44 6-Plus locationd[61] <Warning>: WiFi is associated YES
+Apr 24 10:51:44 6-Plus locationd[61] <Warning>: WiFi is associated YES
+Apr 24 10:51:44 6-Plus MobileMail[154] <Warning>: WiFi is associated YES
+Apr 24 10:51:44 6-Plus MobileMail[154] <Warning>: WiFi is associated YES
+Apr 24 10:51:44 6-Plus MobileSMS[256] <Warning>: WiFi is associated YES
+Apr 24 10:51:44 6-Plus MobileSMS[256] <Warning>: WiFi is associated YES
+Apr 24 10:51:44 6-Plus InCallService[653] <Warning>: WiFi is associated YES
+Apr 24 10:51:44 6-Plus InCallService[653] <Warning>: WiFi is associated YES
+Apr 24 10:51:44 6-Plus dataaccessd[130] <Warning>: WiFi is associated YES
+Apr 24 10:51:44 6-Plus dataaccessd[130] <Warning>: WiFi is associated YES
+Apr 24 10:51:44 6-Plus locationd[61] <Notice>: Gesture EnabledForTopCLient: 0, EnabledInDaemonSettings: 0
+Apr 24 10:51:44 6-Plus SpringBoard[54] <Warning>: BSXPCMessage received error for message: Connection interrupted
+Apr 24 10:51:45 6-Plus SpringBoard[54] <Warning>: Application 'UIKitApplication:com.apple.webapp[0x94f6]' exited voluntarily.
+Apr 24 10:51:45 6-Plus assertiond[64] <Warning>: pid_suspend failed for <BKNewProcess: 0x14f635390; com.apple.webapp; pid: 1067; hostpid: -1>: Unknown error: -1, Unknown error: -1
+Apr 24 10:51:45 6-Plus assertiond[64] <Warning>: Could not set priority of <BKNewProcess: 0x14f635390; com.apple.webapp; pid: 1067; hostpid: -1> to 2, priority: No such process
+Apr 24 10:51:45 6-Plus assertiond[64] <Warning>: Could not set priority of <BKNewProcess: 0x14f635390; com.apple.webapp; pid: 1067; hostpid: -1> to 4096, priority: No such process
+Apr 24 10:51:45 6-Plus UserEventAgent[20] <Warning>: id=com.apple.webapp pid=1067, state=0
+Apr 24 10:51:45 6-Plus kernel[0] <Notice>: xpcproxy[1072] Container: /private/var/mobile/Containers/Data/Application/EA14BFE0-F21B-483F-A773-53137DB8FC26 (sandbox)
+Apr 24 10:51:45 6-Plus locationd[61] <Notice>: Gesture EnabledForTopCLient: 0, EnabledInDaemonSettings: 0
+Apr 24 10:51:45 6-Plus Web[1072] <Error>: assertion failed: 12F70: libxpc.dylib + 71768 [B870B51D-AA85-3686-A7D9-ACD48C5FE153]: 0x7d
+Apr 24 10:51:45 6-Plus Unknown[1072] <Error>: 
+Apr 24 10:51:45 6-Plus kernel[0] <Notice>: 023233.511043 wlan0.A[6144] AppleBCMWLANBGScanManager::configurePrivateMACForBGScans(): BG-SCAN PRIVATE MAC 0 0 0 0 0 0
+Apr 24 10:51:45 6-Plus kernel[0] <Notice>: 023233.517395 wlan0.A[6145] AppleBCMWLANCore::setProperties(): Active during sleep supported (true)
+Apr 24 10:51:45 6-Plus kernel[0] <Notice>: flow_divert_connect_out (32714264): com.apple.webapp-0A015BA0385B43D1950F70C37F4F223B did not match
+Apr 24 10:51:45 6-Plus Web[1072] <Error>: tcp_connection_destination_prepare_complete 1 connectx to 0.0.0.0:0@0 failed: Operation not permitted
+Apr 24 10:51:46 6-Plus MobileMail[154] <Warning>: Received memory warning.
+Apr 24 10:51:46 6-Plus locationd[61] <Notice>: Gesture EnabledForTopCLient: 0, EnabledInDaemonSettings: 0
+Apr 24 10:51:46 6-Plus MobileSMS[256] <Warning>: Received memory warning.
+Apr 24 10:51:47 6-Plus InCallService[653] <Warning>: Received memory warning.
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: 023235.855643 wlan0.N[6146] AppleBCMWLANJoinManager::handleSupplicantEvent(): status = 8 Waiting to receive handshake msg M3, reason = 14 Mreceived FC_DEAUTH, flags = 0x0, authtype = 0, addr = 00:00:92:00:00:00
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: 023235.855694 wlan0.N[6147] AppleBCMWLANNetManager::handleDeauth():    status = 0 , reason = 3, flags = 0x0, authtype = 0, addr = 6c:f3:7f:97:0a:88
+Apr 24 10:51:48 6-Plus CLTM[20] <Error>: CLTM: _subscription 0x0, _subscribedChannels 0x0
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: 023235.858023 wlan0.N[6148] AppleBCMWLANNetManager::leaveNetworkAsync():  kDeauthdCurrNetwork already set. Skipping call to leaveNetworkASync
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: AirPort: Link Down on en0. Reason 1 (Unspecified).
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: en0::stopOutputQueues
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: 023235.858812 wlan0.A[6149] AppleBCMWLANBGScanManager::configurePrivateMACForBGScans(): BG-SCAN PRIVATE MAC 5a 49 e9 14 f6 88
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: 023235.858854 wlan0.N[6150] AppleBCMWLANCore::resetAutoCountry(): EnhancedLocaleEnabled: 1, HostCountry:1, fDefaultCountryCode:XZ, fCurrentHostCountryCode:US
+Apr 24 10:51:48 6-Plus Web[1072] <Warning>: Received memory warning.
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: 023235.994761 wlan0.A[6151] AppleBCMWLANCore::setProperties(): Active during sleep supported (false)
+Apr 24 10:51:48 6-Plus imagent[63] <Warning>: WiFi is associated NO
+Apr 24 10:51:48 6-Plus locationd[61] <Warning>: WiFi is associated NO
+Apr 24 10:51:48 6-Plus SpringBoard[54] <Warning>: WiFi is associated NO
+Apr 24 10:51:48 6-Plus UserEventAgent[20] <Warning>: WiFi is associated NO
+Apr 24 10:51:48 6-Plus apsd[94] <Warning>: WiFi is associated NO
+Apr 24 10:51:48 6-Plus identityservicesd[47] <Warning>: WiFi is associated NO
+Apr 24 10:51:48 6-Plus InCallService[653] <Warning>: WiFi is associated NO
+Apr 24 10:51:48 6-Plus MobileMail[154] <Warning>: WiFi is associated NO
+Apr 24 10:51:48 6-Plus imagent[63] <Warning>: WiFi is associated NO
+Apr 24 10:51:48 6-Plus locationd[61] <Warning>: WiFi is associated NO
+Apr 24 10:51:48 6-Plus UserEventAgent[20] <Warning>: WiFi is associated NO
+Apr 24 10:51:48 6-Plus SpringBoard[54] <Warning>: WiFi is associated NO
+Apr 24 10:51:48 6-Plus apsd[94] <Warning>: WiFi is associated NO
+Apr 24 10:51:48 6-Plus identityservicesd[47] <Warning>: WiFi is associated NO
+Apr 24 10:51:48 6-Plus MobileMail[154] <Warning>: WiFi is associated NO
+Apr 24 10:51:48 6-Plus InCallService[653] <Warning>: WiFi is associated NO
+Apr 24 10:51:48 6-Plus MobileSMS[256] <Warning>: WiFi is associated NO
+Apr 24 10:51:48 6-Plus MobileSMS[256] <Warning>: WiFi is associated NO
+Apr 24 10:51:48 6-Plus dataaccessd[130] <Warning>: WiFi is associated NO
+Apr 24 10:51:48 6-Plus dataaccessd[130] <Warning>: WiFi is associated NO
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: 023236.116070 wlan0.N[6152] AppleBCMWLANCore::setASSOCIATE():  [wifid]: lowerAuth = AUTHTYPE_OPEN, upperAuth = AUTHTYPE_WPA2_PSK, key = CIPHER_PMK , don't disassociate    .
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: 023236.122641 wlan0.N[6153] AppleBCMWLANCore::resetAutoCountry(): EnhancedLocaleEnabled: 1, HostCountry:1, fDefaultCountryCode:XZ, fCurrentHostCountryCode:US
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: 023236.148172 wlan0.A[6154] AppleBCMWLANNetManager::prepareToBringUpLink():  Delaying powersave entry in order to get an IP address
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: 023236.148278 wlan0.A[6155] AppleBCMWLANNetManager::updateLinkQualityMetrics(): Report LQM to User Land 50, fAverageRSSI -85
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: AirPort: Link Up on en0
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: en0::startOutputQueues (0)
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: en0: BSSID changed to 6c:f3:7f:97:0a:88
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: en0: BSSID changed to 6c:f3:7f:97:0a:88
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: 023236.148800 wlan0.A[6156] AppleBCMWLANBGScanManager::configurePrivateMACForBGScans(): BG-SCAN PRIVATE MAC 0 0 0 0 0 0
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: 023236.167898 wlan0.A[6157] AppleBCMWLANConfigManager::configureRoamingProfile(): Roam profile is already in effect (profile=3)
+Apr 24 10:51:48 6-Plus wifid[37] <Error>: WiFi:[451579908.334678]: __WiFiLQAMgrSetCurrentNetwork: SSID: AlphaBeta BSSID: 6c:f3:7f:97:a:88 RSSI: -48 ApEnv: 4
+Apr 24 10:51:48 6-Plus locationd[61] <Notice>: Gesture EnabledForTopCLient: 0, EnabledInDaemonSettings: 0
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: 023236.206025 wlan0.A[6158] AppleBCMWLANCore::setProperties(): Active during sleep supported (true)
+Apr 24 10:51:48 6-Plus imagent[63] <Warning>: WiFi is associated YES
+Apr 24 10:51:48 6-Plus UserEventAgent[20] <Warning>: WiFi is associated YES
+Apr 24 10:51:48 6-Plus imagent[63] <Warning>: WiFi is associated YES
+Apr 24 10:51:48 6-Plus UserEventAgent[20] <Warning>: WiFi is associated YES
+Apr 24 10:51:48 6-Plus kernel[0] <Notice>: 023236.249974 wlan0.N[6159] AppleBCMWLANCore::startRoamScan(): 4904 Delaying RoamScan; because  Join Mgr Busy 1 isWaitingforIP 1 
+Apr 24 10:51:48 6-Plus identityservicesd[47] <Warning>: WiFi is associated YES
+Apr 24 10:51:48 6-Plus apsd[94] <Warning>: WiFi is associated YES
+Apr 24 10:51:48 6-Plus identityservicesd[47] <Warning>: WiFi is associated YES
+Apr 24 10:51:48 6-Plus apsd[94] <Warning>: WiFi is associated YES
+Apr 24 10:51:48 6-Plus SpringBoard[54] <Warning>: WiFi is associated YES
+Apr 24 10:51:48 6-Plus SpringBoard[54] <Warning>: WiFi is associated YES
+Apr 24 10:51:48 6-Plus locationd[61] <Warning>: WiFi is associated YES
+Apr 24 10:51:48 6-Plus locationd[61] <Warning>: WiFi is associated YES
+Apr 24 10:51:48 6-Plus InCallService[653] <Warning>: WiFi is associated YES
+Apr 24 10:51:48 6-Plus InCallService[653] <Warning>: WiFi is associated YES
+Apr 24 10:51:48 6-Plus MobileSMS[256] <Warning>: WiFi is associated YES
+Apr 24 10:51:48 6-Plus MobileMail[154] <Warning>: WiFi is associated YES
+Apr 24 10:51:48 6-Plus MobileSMS[256] <Warning>: WiFi is associated YES
+Apr 24 10:51:48 6-Plus MobileMail[154] <Warning>: WiFi is associated YES
+Apr 24 10:51:48 6-Plus dataaccessd[130] <Warning>: WiFi is associated YES
+Apr 24 10:51:48 6-Plus dataaccessd[130] <Warning>: WiFi is associated YES
+Apr 24 10:51:48 6-Plus SpringBoard[54] <Warning>: BSXPCMessage received error for message: Connection interrupted
+Apr 24 10:51:48 6-Plus locationd[61] <Notice>: Gesture EnabledForTopCLient: 0, EnabledInDaemonSettings: 0
+Apr 24 10:51:49 6-Plus SpringBoard[54] <Warning>: Application 'UIKitApplication:com.apple.webapp[0x4a08]' exited voluntarily.
+Apr 24 10:51:49 6-Plus assertiond[64] <Warning>: pid_suspend failed for <BKNewProcess: 0x14f5373b0; com.apple.webapp; pid: 1072; hostpid: -1>: Unknown error: -1, Unknown error: -1
+Apr 24 10:51:49 6-Plus assertiond[64] <Warning>: Could not set priority of <BKNewProcess: 0x14f5373b0; com.apple.webapp; pid: 1072; hostpid: -1> to 2, priority: No such process
+Apr 24 10:51:49 6-Plus assertiond[64] <Warning>: Could not set priority of <BKNewProcess: 0x14f5373b0; com.apple.webapp; pid: 1072; hostpid: -1> to 4096, priority: No such process
+Apr 24 10:51:50 6-Plus discoveryd[56] <Notice>: Basic DeviceInformation Memory Pressure Warning sent: pressure
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: 023240.075543 wlan0.N[6160] AppleBCMWLANJoinManager::handleSupplicantEvent(): status = 8 Waiting to receive handshake msg M3, reason = 14 Mreceived FC_DEAUTH, flags = 0x0, authtype = 0, addr = 00:00:92:00:00:00
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: 023240.075603 wlan0.N[6161] AppleBCMWLANNetManager::handleDeauth():    status = 0 , reason = 3, flags = 0x0, authtype = 0, addr = 6c:f3:7f:97:0a:88
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: 023240.077883 wlan0.N[6162] AppleBCMWLANNetManager::leaveNetworkAsync():  kDeauthdCurrNetwork already set. Skipping call to leaveNetworkASync
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: AirPort: Link Down on en0. Reason 1 (Unspecified).
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: en0::stopOutputQueues
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: 023240.078561 wlan0.A[6163] AppleBCMWLANBGScanManager::configurePrivateMACForBGScans(): BG-SCAN PRIVATE MAC c2 36 d6 4b 94 c4
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: 023240.078601 wlan0.N[6164] AppleBCMWLANCore::resetAutoCountry(): EnhancedLocaleEnabled: 1, HostCountry:1, fDefaultCountryCode:XZ, fCurrentHostCountryCode:US
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: 023240.102071 wlan0.A[6165] AppleBCMWLANBGScanManager::configurePrivateMACForBGScans(): BG-SCAN PRIVATE MAC ea d 29 f2 7f 2e
+Apr 24 10:51:52 6-Plus wifid[37] <Error>: WiFi:[451579912.273646]: Failed to associate with AlphaBeta, reason -3902
+Apr 24 10:51:52 6-Plus SpringBoard[54] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: 023240.151638 wlan0.A[6166] AppleBCMWLANCore::setProperties(): Active during sleep supported (false)
+Apr 24 10:51:52 6-Plus UserEventAgent[20] <Warning>: WiFi is associated NO
+Apr 24 10:51:52 6-Plus SpringBoard[54] <Warning>: WiFi is associated NO
+Apr 24 10:51:52 6-Plus InCallService[653] <Warning>: WiFi is associated NO
+Apr 24 10:51:52 6-Plus InCallService[653] <Warning>: WiFi is associated NO
+Apr 24 10:51:52 6-Plus MobileSMS[256] <Warning>: WiFi is associated NO
+Apr 24 10:51:52 6-Plus MobileSMS[256] <Warning>: WiFi is associated NO
+Apr 24 10:51:52 6-Plus imagent[63] <Warning>: WiFi is associated NO
+Apr 24 10:51:52 6-Plus locationd[61] <Warning>: WiFi is associated NO
+Apr 24 10:51:52 6-Plus imagent[63] <Warning>: WiFi is associated NO
+Apr 24 10:51:52 6-Plus locationd[61] <Warning>: WiFi is associated NO
+Apr 24 10:51:52 6-Plus apsd[94] <Warning>: WiFi is associated NO
+Apr 24 10:51:52 6-Plus apsd[94] <Warning>: WiFi is associated NO
+Apr 24 10:51:52 6-Plus identityservicesd[47] <Warning>: WiFi is associated NO
+Apr 24 10:51:52 6-Plus identityservicesd[47] <Warning>: WiFi is associated NO
+Apr 24 10:51:52 6-Plus MobileMail[154] <Warning>: WiFi is associated NO
+Apr 24 10:51:52 6-Plus UserEventAgent[20] <Warning>: WiFi is associated NO
+Apr 24 10:51:52 6-Plus MobileMail[154] <Warning>: WiFi is associated NO
+Apr 24 10:51:52 6-Plus dataaccessd[130] <Warning>: WiFi is associated NO
+Apr 24 10:51:52 6-Plus dataaccessd[130] <Warning>: WiFi is associated NO
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: 023240.388786 wlan0.N[6167] AppleBCMWLANCore::setASSOCIATE():  [wifid]: lowerAuth = AUTHTYPE_OPEN, upperAuth = AUTHTYPE_WPA2_PSK, key = CIPHER_PMK , don't disassociate    .
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: 023240.395816 wlan0.N[6168] AppleBCMWLANCore::resetAutoCountry(): EnhancedLocaleEnabled: 1, HostCountry:1, fDefaultCountryCode:XZ, fCurrentHostCountryCode:US
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: 023240.449083 wlan0.A[6169] AppleBCMWLANNetManager::prepareToBringUpLink():  Delaying powersave entry in order to get an IP address
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: 023240.449176 wlan0.A[6170] AppleBCMWLANNetManager::updateLinkQualityMetrics(): Report LQM to User Land 50, fAverageRSSI -85
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: AirPort: Link Up on en0
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: en0::startOutputQueues (0)
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: en0: BSSID changed to 9c:1c:12:0f:17:90
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: en0: BSSID changed to 9c:1c:12:0f:17:90
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: 023240.449509 wlan0.A[6171] AppleBCMWLANBGScanManager::configurePrivateMACForBGScans(): BG-SCAN PRIVATE MAC 0 0 0 0 0 0
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: 023240.464852 wlan0.A[6172] AppleBCMWLANConfigManager::configureRoamingProfile(): Roam profile is already in effect (profile=3)
+Apr 24 10:51:52 6-Plus wifid[37] <Error>: WiFi:[451579912.631408]: __WiFiLQAMgrSetCurrentNetwork: SSID: AlphaBeta BSSID: 9c:1c:12:f:17:90 RSSI: -65 ApEnv: 4
+Apr 24 10:51:52 6-Plus kernel[0] <Notice>: 023240.536542 wlan0.N[6173] AppleBCMWLANCore::startRoamScan(): 4904 Delaying RoamScan; because  Join Mgr Busy 1 isWaitingforIP 1 
+Apr 24 10:51:52 6-Plus identityservicesd[47] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus imagent[63] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus imagent[63] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus identityservicesd[47] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus UserEventAgent[20] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus UserEventAgent[20] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus locationd[61] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus locationd[61] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus SpringBoard[54] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus SpringBoard[54] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus MobileMail[154] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus MobileMail[154] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus InCallService[653] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus InCallService[653] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus apsd[94] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus apsd[94] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus MobileSMS[256] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus MobileSMS[256] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus dataaccessd[130] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus dataaccessd[130] <Warning>: WiFi is associated YES
+Apr 24 10:51:52 6-Plus CLTM[20] <Error>: CLTM: _subscription 0x0, _subscribedChannels 0x0
