@@ -23,9 +23,53 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             // Initialize Parse.
             Parse.setApplicationId("cWq6pTL1XAZ1sI4QgCAEk6uXxyaOJcaBak0issR4",
                 clientKey: "f4f64W2b10yaKYdKuRm78U2FEggQ2Rhv2i2OBTbI")
-            
+        
+        let notificationTypes = UIUserNotificationType.Alert | UIUserNotificationType.Badge | UIUserNotificationType.Sound
+        let notificationSettings = UIUserNotificationSettings(forTypes: notificationTypes, categories: nil)
+        
+        UIApplication.sharedApplication().registerUserNotificationSettings(notificationSettings)
 
         return true
+    }
+    
+    func application(application: UIApplication, didRegisterUserNotificationSettings notificationSettings: UIUserNotificationSettings) {
+        UIApplication.sharedApplication().registerForRemoteNotifications()
+    }
+    
+    func application(application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData) {
+        let currentInstallation = PFInstallation.currentInstallation()
+        currentInstallation.setDeviceTokenFromData(deviceToken)
+        currentInstallation.saveInBackgroundWithBlock({ (succeeded: Bool, error: NSError?) -> Void in
+            
+        })
+    
+    }
+    
+    func application(application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: NSError) {
+        println(error.localizedDescription)
+    }
+    
+//    func application(application: UIApplication, didReceiveRemoteNotification userInfo:NSDictionary!) {
+//        var notification = userInfo.objectForKey("aps")
+//        
+//        PFPush.handlePush(userInfo)
+//    }
+    
+    func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject]) {
+        
+        var notification = userInfo["aps"] as! NSDictionary
+        
+        if (notification.objectForKey("content-avaialable") != nil){
+            if notification.objectForKey("content-avaialable")!.isEqualToNumber(1){
+                NSNotificationCenter.defaultCenter().postNotificationName("reloadTimeline", object: nil)
+            }
+            
+        }else{
+            PFPush.handlePush(userInfo)
+        }
+        
+        PFPush.handlePush(userInfo)
+        
     }
 
     func applicationWillResignActive(application: UIApplication) {

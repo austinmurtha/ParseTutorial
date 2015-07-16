@@ -31,6 +31,7 @@
 		D921ABC11AE290200049A644 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D921ABC01AE290200049A644 /* libsqlite3.dylib */; };
 		D921ABC31AE291270049A644 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D921ABC21AE291270049A644 /* Accounts.framework */; };
 		D921ABC51AE2913F0049A644 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D921ABC41AE2913F0049A644 /* Social.framework */; };
+		D924C5B51B56E5D5006E16BA /* DirectMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D924C5B41B56E5D5006E16BA /* DirectMessageTableViewController.swift */; };
 		D930BA731AE7196B00254946 /* SweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D930BA721AE7196B00254946 /* SweetTableViewCell.swift */; };
 		D9372DE41AE29FD4000D7052 /* TimeLineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9372DE31AE29FD4000D7052 /* TimeLineTableViewController.swift */; };
 		D9372DE61AE2A029000D7052 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9372DE51AE2A029000D7052 /* ComposeViewController.swift */; };
@@ -76,6 +77,7 @@
 		D921ABC01AE290200049A644 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		D921ABC21AE291270049A644 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		D921ABC41AE2913F0049A644 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		D924C5B41B56E5D5006E16BA /* DirectMessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectMessageTableViewController.swift; sourceTree = "<group>"; };
 		D930BA721AE7196B00254946 /* SweetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetTableViewCell.swift; sourceTree = "<group>"; };
 		D9372DE31AE29FD4000D7052 /* TimeLineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineTableViewController.swift; sourceTree = "<group>"; };
 		D9372DE51AE2A029000D7052 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComposeViewController.swift; path = ../ComposeViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				D9372DE31AE29FD4000D7052 /* TimeLineTableViewController.swift */,
 				D9372DE51AE2A029000D7052 /* ComposeViewController.swift */,
 				D930BA721AE7196B00254946 /* SweetTableViewCell.swift */,
+				D924C5B41B56E5D5006E16BA /* DirectMessageTableViewController.swift */,
 				D921AB881ADDE7810049A644 /* Main.storyboard */,
 				D921AB8B1ADDE7810049A644 /* Images.xcassets */,
 				D921AB8D1ADDE7810049A644 /* LaunchScreen.xib */,
@@ -313,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D924C5B51B56E5D5006E16BA /* DirectMessageTableViewController.swift in Sources */,
 				D921AB851ADDE7810049A644 /* AppDelegate.swift in Sources */,
 				D9372DE41AE29FD4000D7052 /* TimeLineTableViewController.swift in Sources */,
 				D930BA731AE7196B00254946 /* SweetTableViewCell.swift in Sources */,

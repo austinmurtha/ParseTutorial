@@ -55,6 +55,14 @@ class ComposeViewController: UIViewController, UITextViewDelegate  {
             
         }
         
+        var push = PFPush()
+        push.setChannel("Reload")
+        
+        var data = ["alert":"", "badge":"0", "content-available":"1", "sound":""]
+        
+        push.setData(data)
+        push.sendPushInBackgroundWithBlock(nil)
+        
         self.navigationController?.popToRootViewControllerAnimated(true)
     }
     
